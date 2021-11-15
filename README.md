@@ -1,8 +1,6 @@
 # MarkovText
 > 📖 Trained text generator using first order Markov chains
 
-How to Use:
--------------
 #### Importing text:
 
     word_dict = create_dictionary('filename.txt')
