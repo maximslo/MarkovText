@@ -2,7 +2,6 @@
 
 This script is an "AI" text generator and writes human-like text. Inspired by OpenAI's GPT-3 and learning about Markov chains in class, my language model creates better results with a greater sample size. It analyses any sample text file and generates a mimicked string of any length you desire. It does this by creating a Markov chain - specifically by analyzing the different frequencies and pattern of words in the sample text and creating a dictionary/associative array of the probability a word followed by another. Currently just a script in Python that I plan to scale.
 
-## How to use:
 ###### Importing text:
     word_dict = create_dictionary('filename.txt')
     
