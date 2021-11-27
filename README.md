@@ -17,8 +17,8 @@ Theoretically, states can be connected by arrows, with some arrows circling back
 In the hands of metereologists, ecologists, computer scientists, financial engineers and other people who need to model big phenomena, Markov chains can get to be quite large and powerful. The PageRank algorithm Google uses to determine the order of search results is a type of Markov chain.
 
 ## 📒 How to use my program:
-###### Importing text:
+###### 1) Make sure sample is a .txt file.
+###### 2) Import text:
     word_dict = create_dictionary('filename.txt')
-    
-###### Generating text:
+###### 3) Generate text:
     generate_text(word_dict, lenth of generated text)
