@@ -1,5 +1,5 @@
 # MarkovText
-📖 Trained text generator using first order Markov chains. 
+📖 Trained text generator using first order Markov chains.  
 🔮 A script built in Python that I plan to scale to a web application in the future.
 
 ## What is a Markov chain?
