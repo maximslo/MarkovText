@@ -4,11 +4,8 @@ This script is an "AI" text generator and writes human-like text. Inspired by Op
 
 ## How to use:
 ###### Importing text:
+###### (Make sure the file you want to model is in the same directory)
     word_dict = create_dictionary('filename.txt')
-  
-  
-  ###### Make sure the file you want to model is in the same directory!
-
 ###### Generating text:
     generate_text(word_dict, lenth of generated text)
 
