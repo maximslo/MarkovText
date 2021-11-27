@@ -18,7 +18,7 @@ In the hands of metereologists, ecologists, computer scientists, financial engin
 
 ## 📒 How to use my program:
 ###### 1) Make sure sample is a .txt file.
-###### 2) Import text:
+###### 2) Import sample text:
     word_dict = create_dictionary('filename.txt')
-###### 3) Generate text:
+###### 3) Generate new text:
     generate_text(word_dict, lenth of generated text)
