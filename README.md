@@ -2,12 +2,6 @@
 
 This script is an "AI" text generator and writes human-like text. Inspired by OpenAI's GPT-3 and learning about Markov chains in class, my language model creates better results with a greater sample size. It analyses any sample text file and generates a mimicked string of any length you desire. It does this by creating a Markov chain - specifically by analyzing the different frequencies and pattern of words in the sample text and creating a dictionary/associative array of the probability a word followed by another. Currently just a script in Python that I plan to scale.
 
-###### Importing text:
-    word_dict = create_dictionary('filename.txt')
-    
-###### Generating text:
-    generate_text(word_dict, lenth of generated text)
-
 ## ❓ What is a Markov chain?
 Named after Russian mathematician Andrey Makrov, a Markov chain is model describing a sequence of possible events or "states". For example, if you made a model of a baby's behavior, you might include "playing," "sleeping," and "crying" as states. In addition, a Markov chain tells you the probabilitiy of hopping, or "transitioning," from one state to any other state, like the chance that a baby currently playing will fall asleep in the next five minutes. It's often described as a stochaistic model because it describes the path of **random** events, where the probability of each event depends only on the state attained in the previous event.
 
@@ -22,3 +16,9 @@ Theoretically, states can be connected by arrows, with some arrows circling back
 ## 🌎 How are they useful?
 In the hands of metereologists, ecologists, computer scientists, financial engineers and other people who need to model big phenomena, Markov chains can get to be quite large and powerful. The PageRank algorithm Google uses to determine the order of search results is a type of Markov chain for example.
 
+## 📒 How to use my program:
+###### Importing text:
+    word_dict = create_dictionary('filename.txt')
+    
+###### Generating text:
+    generate_text(word_dict, lenth of generated text)
