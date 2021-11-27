@@ -1,7 +1,7 @@
 # 📖 MarkovText
 A trained text generator using first order Markov chains. Currently just a script in Python that I plan to scale.
 
-## What is a Markov chain?
+## ❓ What is a Markov chain?
 Named after Russian mathematician Andrey Makrov, a Markov chain is model describing a sequence of possible events or "states". For example, if you made a model of a baby's behavior, you might include "playing," "sleeping," and "crying" as states. In addition, a Markov chain tells you the probabilitiy of hopping, or "transitioning," from one state to any other state, like the chance that a baby currently playing will fall asleep in the next five minutes. It's often described as a stochaistic model because it describes the path of **random** events, where the probability of each event depends only on the state attained in the previous event.
 
 #### "Stickiness"
@@ -13,12 +13,12 @@ Theoretically, states can be connected by arrows, with some arrows circling back
 ## 🌎 How are they useful?
 In the hands of metereologists, ecologists, computer scientists, financial engineers and other people who need to model big phenomena, Markov chains can get to be quite large and powerful. For example, the algorithm Google uses to determine the order of search results, called PageRank, is a type of Markov chain.
 
-#### Importing text:
 
+## 📓 Directions:
+###### Importing text:
     word_dict = create_dictionary('filename.txt')
   
 * Make sure the file you want to model is in the same directory!
 
-#### Generating text:
-
+###### Generating text:
     generate_text(word_dict, lenth of generated text)
