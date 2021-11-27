@@ -14,7 +14,7 @@ Theoretically, states can be connected by arrows, with some arrows circling back
 <img src="https://miro.medium.com/max/437/1*SUUir-VGHy2OFqbpKxwuJA.png" width="600">
 
 ## 🌎 How are they useful?
-In the hands of metereologists, ecologists, computer scientists, financial engineers and other people who need to model big phenomena, Markov chains can get to be quite large and powerful. The PageRank algorithm Google uses to determine the order of search results is a type of Markov chain for example.
+In the hands of metereologists, ecologists, computer scientists, financial engineers and other people who need to model big phenomena, Markov chains can get to be quite large and powerful. The PageRank algorithm Google uses to determine the order of search results is a type of Markov chain.
 
 ## 📒 How to use my program:
 ###### Importing text:
